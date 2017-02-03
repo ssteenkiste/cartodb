@@ -1,6 +1,6 @@
 {
   "name": "cartodb-ui",
-  "version": "4.5.130",
+  "version": "4.5.133",
   "dependencies": {
     "backbone": {
       "version": "1.2.3",
@@ -86,7 +86,7 @@
                             },
                             "readable-stream": {
                               "version": "2.0.6",
-                              "from": "readable-stream@>=2.0.0 <2.1.0",
+                              "from": "readable-stream@>=2.0.5 <2.1.0",
                               "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.0.6.tgz",
                               "dependencies": {
                                 "core-util-is": {
@@ -819,7 +819,7 @@
             },
             "map-obj": {
               "version": "1.0.1",
-              "from": "map-obj@>=1.0.1 <2.0.0",
+              "from": "map-obj@>=1.0.1 <1.1.0",
               "resolved": "https://registry.npmjs.org/map-obj/-/map-obj-1.0.1.tgz"
             },
             "replace-requires": {
@@ -1065,7 +1065,7 @@
                     },
                     "source-map": {
                       "version": "0.1.43",
-                      "from": "source-map@>=0.1.33 <0.2.0",
+                      "from": "source-map@>=0.1.30 <0.2.0",
                       "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.1.43.tgz",
                       "dependencies": {
                         "amdefine": {
@@ -1146,13 +1146,13 @@
     },
     "cartodb-deep-insights.js": {
       "version": "0.0.2",
-      "from": "cartodb/deep-insights.js#master",
-      "resolved": "git://github.com/cartodb/deep-insights.js.git#09ce26314f89f946cf31644085bf0b35e12eb586",
+      "from": "cartodb/deep-insights.js#11380-custom_infowindow_migration_style",
+      "resolved": "git://github.com/cartodb/deep-insights.js.git#dc403df17c8cd6bd33fdaa2a131697c146ee4ab7",
       "dependencies": {
         "cartodb.js": {
           "version": "4.0.0-alpha.1",
-          "from": "cartodb/cartodb.js#v4",
-          "resolved": "git://github.com/cartodb/cartodb.js.git#023901c3aa8c21742903f501c7bba69bc164168c",
+          "from": "cartodb/cartodb.js#11380-custom_infowindow_migration_style",
+          "resolved": "git://github.com/cartodb/cartodb.js.git#50d7c78349c72306c99ada599aedf23bd2dfd01a",
           "dependencies": {
             "backbone-poller": {
               "version": "1.1.3",
@@ -1555,8 +1555,8 @@
     },
     "cartodb.js": {
       "version": "4.0.0-alpha.1",
-      "from": "cartodb/cartodb.js#v4",
-      "resolved": "git://github.com/cartodb/cartodb.js.git#023901c3aa8c21742903f501c7bba69bc164168c",
+      "from": "cartodb/cartodb.js#11380-custom_infowindow_migration_style",
+      "resolved": "git://github.com/cartodb/cartodb.js.git#50d7c78349c72306c99ada599aedf23bd2dfd01a",
       "dependencies": {
         "backbone-poller": {
           "version": "1.1.3",
