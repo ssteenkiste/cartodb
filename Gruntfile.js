@@ -3,7 +3,7 @@
  var jasmineCfg = require('./lib/build/tasks/jasmine.js');
  var duplicatedDependencies = require('./lib/build/tasks/shrinkwrap-duplicated-dependencies.js');
 
- var REQUIRED_NPM_VERSION = /2.14.[0-9]+/;
+ var REQUIRED_NPM_VERSION = /2.1[4-5].[0-9]+/;
  var REQUIRED_NODE_VERSION = /0.10.[0-9]+/;
  var SHRINKWRAP_MODULES_TO_VALIDATE = [
   'backbone',
